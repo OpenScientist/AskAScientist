@@ -38,6 +38,7 @@
 
 </head>
 <body>
+
 <div class="wrap-switcher">
  <!-- ### START - Header Section ### -->
 <header>
@@ -93,8 +94,10 @@
 			<div class="response" id="mce-success-response" style="display:none"></div>
 		</div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 	    <div style="position: absolute; left: -5000px;"><input type="text" name="b_7386e2dabf48ac21090437ca0_5e354310b9" tabindex="-1" value=""></div>
-	    <input type="submit" value="Register" name="subscribe" class="button-newsletter">
-        <label> * We will not forward your email address to any third party.</label>
+        <div>
+            <input type="submit" value="Register" name="subscribe" class="button-newsletter">
+        </div>
+        </div>
 	</form>
 
 </div>
@@ -149,7 +152,13 @@
 <!-- ### START - FOOTER Section ### -->
 <footer> 
 <div class="wrapper">
-<div class="copy">  <p>The Ask a Scientist Corporation &#169; 2014</p> </div>
+    <div class="copy pull-left">
+        <p>The Ask a Scientist Corporation &#169; 2014</p>
+    </div>
+    <div class="copy pull-right" style="width:350px;">
+        <!--<div class="fb-like-box" data-href="https://www.facebook.com/nationalaskascientist" data-width="350" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>-->
+    </div> 
+    <div style="clear:both;"></div>
 </div>
 </footer>
 <!-- ### END - FOOTER Section ### -->
@@ -356,6 +365,19 @@ function mce_success_cb(resp){
   ga('create', 'UA-37654252-3', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<div id="fb-root"></div>
+<script>
+/** Facebook Like Plugin
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=504154456284606&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+*/
 </script>
 </body>
 </html>
