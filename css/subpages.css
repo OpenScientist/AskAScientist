@@ -2,10 +2,8 @@
 
 .main2 { height:100px;}
 .about { box-shadow:0px -1px 1px rgba(0,0,0,0.2); padding:10px 0 90px; background:url(../img/body.png)repeat; }
-.right img { float:right;  border-radius:1px; margin:0;
-  box-shadow: 0px 0px  6px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(255, 255, 255, 0.4) inset, 0 -1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 3px rgba(0, 0, 0, 0.3); } 
-.left img { float:left;  border-radius:1px;  margin:20px 0;
-  box-shadow: 0px 0px  6px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(255, 255, 255, 0.4) inset, 0 -1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 3px rgba(0, 0, 0, 0.3); } 
+.right img { float:right;  border-radius:1px; margin:0;} 
+.left img { float:left;  border-radius:1px;  margin:20px 0;} 
 .about h3 { font-size:22px; font-weight:600; color:#4b4f51; margin:30px 0 0; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3); }
 .about h6 { font-size:18px; font-weight:500; color:#b5bec2;  margin:25px 0 0; } 
 .about p { font-size:14px; line-height:23px; margin:20px 0; }
